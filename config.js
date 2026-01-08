@@ -18,7 +18,7 @@ module.exports = {
     AUTO_LIKE_EMOJI: ['💋', '🍬', '🫆', '💗', '🎈', '🎉', '🥳', '❤️', '🧫', '🐭'],
     
     // Group Settings
-    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || '',
+    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/ISXkG9yKiUf6QxkVEBJwoQ',
     
     // File Paths
     ADMIN_LIST_PATH: process.env.ADMIN_LIST_PATH || './admin.json',
@@ -26,24 +26,24 @@ module.exports = {
     NUMBER_LIST_PATH: process.env.NUMBER_LIST_PATH || './numbers.json',
     
     // Media URLs
-    RCD_IMAGE_PATH: process.env.RCD_IMAGE_PATH || '', // add your bot url
-    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || '', //add ur bot url
+    RCD_IMAGE_PATH: process.env.RCD_IMAGE_PATH || 'https://files.catbox.moe/d0z6ym.JPG', // add your bot url
+    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || 'https://files.catbox.moe/d0z6ym.JPG', //add ur bot url
     
     // Newsletter Settings
-    NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363402507750390@newsletter',
+    NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363407036993521@newsletter',
     NEWSLETTER_MESSAGE_ID: process.env.NEWSLETTER_MESSAGE_ID || '428',
     
     // Owner Settings
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '263714757857', // ᴀᴅᴅ ʏᴏᴜʀ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '94785357011', // ᴀᴅᴅ ʏᴏᴜʀ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ
     OWNER_NAME: process.env.OWNER_NAME || 'ᴍʀ xᴅ ᴋɪɴɢ', // ᴀᴅᴅ ʏᴏᴜʀ ᴏᴡɴᴇʀ ɴame
     
     // Channel Links
-    CHANNEL_LINK: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbB3YxTDJ6H15SKoBv3S',
+    CHANNEL_LINK: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbBgUm07IUYOmLOoRc1m',
     
     // GitHub Settings
-    GITHUB_OWNER: process.env.GITHUB_OWNER || '', //add your github username
-    GITHUB_REPO: process.env.GITHUB_REPO || '', // add your github repo name
-    GITHUB_TOKEN: process.env.GITHUB_TOKEN || '', //add your github token
+    GITHUB_OWNER: process.env.GITHUB_OWNER || 'ishanxmd', //add your github username
+    GITHUB_REPO: process.env.GITHUB_REPO || 'kavaya', // add your github repo name
+    GITHUB_TOKEN: process.env.GITHUB_TOKEN || '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', //add your github token
     
     // API Keys
     TIKTOK_API_KEY: process.env.TIKTOK_API_KEY || 'free_key@maher_apis',
